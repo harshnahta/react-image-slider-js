@@ -1,6 +1,6 @@
 {
   "name": "react-image-slider-js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easy react js slider. It comes with manually adjust whatever user required.",
   "private": false,
   "author": "Harsh Nahta",
@@ -26,7 +26,8 @@
   },
   "scripts": {
     "build": "microbundle-crl --format cjs",
-    "start": "microbundle-crl watch --format cjs"
+    "start": "microbundle-crl watch --format cjs",
+    "test": "microbundle-crl --no-compress --jsx React.createElement --jsxFragment React.Fragment --jsxImportSource react --globals react/jsx-runtime=jsx"
   },
   "peerDependencies": {
     "react": "^16.0.0"

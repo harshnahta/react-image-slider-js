@@ -34,15 +34,16 @@ class Example extends Component {
 
 #### Options
 
-| **Option**               | **Type** | **Default value**    | **Description**                                                                                     |
-| :----------------------- | :------- | :------------------- | :-------------------------------------------------------------------------------------------------- |
-| `sliderIndex`            | `number` | 0                    | Selected index of slider                                                                            |
-| `images`                 | `array`  | []                   | Array of images                                                                                     |
-| `imageSrcKey`            | `string` | 'src'                | key of image in array object. Provide empty eg. '' if it is simple array                            |
-| `imageAltKey`            | `string` | 'src'                | image alt key                                                                                       |
-| `slideAnimationDuration` | `string` | '600ms'              | Slider animation duration.                                                                          |
-| `objectFit`              | `string` | `fill`               | Image object property style. i.e. cover,contain,fill etc.                                           |
-| `imageBackgroundColor`   | `string` | 'rgba(0, 0, 0, 0.5)' | Background color of image container. This feature is usefull with **objectFit:'contain'** property. |
+| **Option**               | **Type**  | **Default value**    | **Description**                                                                                     |
+| :----------------------- | :-------- | :------------------- | :-------------------------------------------------------------------------------------------------- |
+| `sliderIndex`            | `number`  | 0                    | Selected index of slider                                                                            |
+| `images`                 | `array`   | []                   | Array of images                                                                                     |
+| `imageSrcKey`            | `string`  | 'src'                | key of image in array object. Provide empty eg. '' if it is simple array                            |
+| `imageAltKey`            | `string`  | 'src'                | image alt key                                                                                       |
+| `slideAnimationDuration` | `string`  | '600ms'              | Slider animation duration.                                                                          |
+| `objectFit`              | `string`  | `fill`               | Image object property style. i.e. cover,contain,fill etc.                                           |
+| `imageBackgroundColor`   | `string`  | 'rgba(0, 0, 0, 0.5)' | Background color of image container. This feature is usefull with **objectFit:'contain'** property. |
+| `isLoop`                 | `boolean` | true                 | This will repeat the start/end image once image is move to end/start position.                      |
 
 #### Example first: images having keys in array
 
